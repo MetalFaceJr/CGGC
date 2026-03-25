@@ -25,6 +25,10 @@ export const metadata: Metadata = {
     "Martial Arts",
     "Calhoun GA",
     "Self Defense",
+    "MMA",
+    "Mixed Martial Arts",
+    "Wrestling",
+    "Submission Fighting"
   ],
 };
 
