@@ -25,9 +25,9 @@ export default function Home() {
                 Fundamentals (Gi)
               </h3>
               <p className="text-light-text/80">
-                Learn foundational positions, escapes, and submissions of
-                Brazilian Jiu-Jitsu in a safe, controlled environment. Perfect
-                for beginners.
+                Traditional training in the kimono.
+                Learn to slow down and control bigger, stronger opponents using their clothes as a handle
+                (because not everyone takes their clothes off to fight).
               </p>
             </div>
 
@@ -51,8 +51,7 @@ export default function Home() {
                 Youth Grappling
               </h3>
               <p className="text-light-text/80">
-                Build confidence, discipline, and physical fitness in our
-                specialized kids and teens martial arts classes. Safe and fun.
+                Conflict is inevitable and your kid needs "Conflict Resolution" skills.
               </p>
             </div>
           </div>
@@ -63,18 +62,17 @@ export default function Home() {
       <section className="py-16 sm:py-20 bg-dark-surface">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-center text-light-text mb-12">
-            Why Join <span className="text-primary">Calhoun Grappling</span>?
+            Why Join <span className="text-primary">Calhoun, GA<br>Grappling Club</span>?
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="text-5xl mb-4">🏆</div>
               <h3 className="text-xl font-bold text-primary mb-2">
-                Expert Instruction
+                Passionate Instruction
               </h3>
               <p className="text-light-text/80">
-                Learn from experienced instructors passionate about developing
-                strong grapplers.
+                Learn from experienced instructors with various grappling backgrounds.
               </p>
             </div>
 
@@ -84,8 +82,7 @@ export default function Home() {
                 Strong Community
               </h3>
               <p className="text-light-text/80">
-                Train alongside dedicated athletes in a supportive, welcoming
-                environment.
+                Train at your pace in a supportive, welcoming environment. Hobbyist & Competitors alike!
               </p>
             </div>
 
