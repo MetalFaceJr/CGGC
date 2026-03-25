@@ -53,10 +53,10 @@ export default function AboutPage() {
             <div className="bg-gradient-to-br from-primary to-primary/50 rounded-lg p-12 text-center">
               <div className="text-6xl mb-4">🥋</div>
               <h3 className="text-2xl font-bold text-dark-bg mb-2">
-                A Place to Grow
+                A Place to Improve
               </h3>
               <p className="text-dark-bg/80">
-                Physically. Mentally. Spiritually.
+                Technically. Physically. Mentally.
               </p>
             </div>
           </div>
