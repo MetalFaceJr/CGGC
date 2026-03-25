@@ -12,7 +12,7 @@ export const instructorsData: Instructor[] = [
     id: "randy-roden",
     name: "Randy Roden",
     title: "Head Instructor",
-    bio: "20+ years of grappling experience. Wrestled folkstyle for Rome High (2007-2011) & Duke University (2011-2016). Debuted as a professional submission grappling in 2021",
+    bio: "20+ years of grappling experience. Wrestled folkstyle for Rome High (2007-2011) & Duke University (2011-2016). Debuted as a professional submission grappler in 2021",
     specialty: "Brazilian Jiu-Jitsu, Submission Wrestling",
     initials: "RR",
   },
