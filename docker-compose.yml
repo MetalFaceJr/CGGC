@@ -1,0 +1,22 @@
+services:
+  nextjs-site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nextjs-site
+    restart: unless-stopped
+    ports:
+      - "3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_API_URL=https://n8n.nththeory.com/
+    networks:
+      - proxy-nw
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m" # Prevents logs from filling up your SSD
+
+networks:
+  proxy-nw:
+    external: true

@@ -1,65 +1,159 @@
-import Image from "next/image";
+import Link from "next/link";
+import HeroSection from "@/ui/HeroSection";
+import TrialModal from "@/ui/TrialModal";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <>
+      {/* Hero Section */}
+      <HeroSection>
+        <TrialModal />
+      </HeroSection>
+
+      {/* Programs Section */}
+      <section className="py-16 sm:py-20 bg-dark-bg">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-bold text-center text-light-text mb-12">
+            Our <span className="text-primary">Programs</span>
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Fundamentals Card */}
+            <div className="bg-dark-surface border border-primary/20 rounded-lg p-8 hover:border-primary/50 transition">
+              <div className="text-4xl mb-4">🥋</div>
+              <h3 className="text-2xl font-bold text-primary mb-3">
+                Fundamentals (Gi)
+              </h3>
+              <p className="text-light-text/80">
+                Learn foundational positions, escapes, and submissions of
+                Brazilian Jiu-Jitsu in a safe, controlled environment. Perfect
+                for beginners.
+              </p>
+            </div>
+
+            {/* No-Gi Card */}
+            <div className="bg-dark-surface border border-primary/20 rounded-lg p-8 hover:border-primary/50 transition">
+              <div className="text-4xl mb-4">💪</div>
+              <h3 className="text-2xl font-bold text-primary mb-3">
+                Submission Grappling (No-Gi)
+              </h3>
+              <p className="text-light-text/80">
+                Fast-paced wrestling and submission hunting without the
+                traditional uniform. Perfect for MMA enthusiasts and athletes
+                seeking a dynamic workout.
+              </p>
+            </div>
+
+            {/* Youth Card */}
+            <div className="bg-dark-surface border border-primary/20 rounded-lg p-8 hover:border-primary/50 transition">
+              <div className="text-4xl mb-4">👦</div>
+              <h3 className="text-2xl font-bold text-primary mb-3">
+                Youth Grappling
+              </h3>
+              <p className="text-light-text/80">
+                Build confidence, discipline, and physical fitness in our
+                specialized kids and teens martial arts classes. Safe and fun.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Join Us Section */}
+      <section className="py-16 sm:py-20 bg-dark-surface">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-bold text-center text-light-text mb-12">
+            Why Join <span className="text-primary">Calhoun Grappling</span>?
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="text-5xl mb-4">🏆</div>
+              <h3 className="text-xl font-bold text-primary mb-2">
+                Expert Instruction
+              </h3>
+              <p className="text-light-text/80">
+                Learn from experienced instructors passionate about developing
+                strong grapplers.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="text-5xl mb-4">🤝</div>
+              <h3 className="text-xl font-bold text-primary mb-2">
+                Strong Community
+              </h3>
+              <p className="text-light-text/80">
+                Train alongside dedicated athletes in a supportive, welcoming
+                environment.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="text-5xl mb-4">📍</div>
+              <h3 className="text-xl font-bold text-primary mb-2">
+                Convenient Location
+              </h3>
+              <p className="text-light-text/80">
+                Located inside Seo's Martial Arts & SMA Athletics in Calhoun,
+                GA.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Schedule Preview Section */}
+      <section className="py-16 sm:py-20 bg-dark-bg">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl sm:text-4xl font-bold text-light-text mb-4">
+            See Our <span className="text-primary">Schedule</span>
+          </h2>
+          <p className="text-light-text/80 mb-8 max-w-2xl mx-auto">
+            Classes available Wednesday, Friday, and Saturday for all ages and
+            experience levels.
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/schedule"
+            className="inline-block px-8 py-3 bg-primary text-dark-bg font-bold rounded-lg hover:bg-primary/90 transition"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            View Full Schedule
+          </Link>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* Location Section */}
+      <section className="py-16 sm:py-20 bg-dark-surface">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h3 className="text-2xl font-bold text-light-text mb-4">
+            Located Inside{" "}
+            <span className="text-primary">
+              Seo's Martial Arts & SMA Athletics
+            </span>
+          </h3>
+          <p className="text-light-text/80 mb-2">
+            📍 200 Golden Circle Dr, Calhoun, GA 30701
+          </p>
+          <p className="text-light-text/80 mb-6">
+            Easy to find, convenient parking, professional facilities
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="tel:+17066297367"
+              className="px-6 py-3 bg-primary text-dark-bg font-bold rounded-lg hover:bg-primary/90 transition"
+            >
+              Call Us
+            </a>
+            <a
+              href="mailto:Randy.Roden@CalhounGaGrapplingClub.com"
+              className="px-6 py-3 border border-primary text-primary font-bold rounded-lg hover:bg-primary/10 transition"
+            >
+              Email Us
+            </a>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
