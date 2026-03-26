@@ -58,7 +58,7 @@ export default function BlogPage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="tel:+17066297367"
-              className="flex-1 px-6 py-3 bg-primary text-dark-bg font-bold rounded-lg hover:bg-primary/90 transition"
+              className="flex-1 px-6 py-3 bg-primary text-light-text font-bold rounded-lg hover:bg-primary/90 transition"
             >
               Call Us
             </a>

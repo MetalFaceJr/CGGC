@@ -62,7 +62,7 @@ export default function Home() {
       <section className="py-16 sm:py-20 bg-dark-surface">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-center text-light-text mb-12">
-            Why Join <span className="text-primary">Calhoun, GA<br>Grappling Club</span>?
+            Why Join <span className="text-primary">Calhoun, GA<br />Grappling Club</span>?
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -112,7 +112,7 @@ export default function Home() {
           </p>
           <Link
             href="/schedule"
-            className="inline-block px-8 py-3 bg-primary text-dark-bg font-bold rounded-lg hover:bg-primary/90 transition"
+            className="inline-block px-8 py-3 bg-primary text-light-text font-bold rounded-lg hover:bg-primary/90 transition"
           >
             View Full Schedule
           </Link>
@@ -138,7 +138,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+17066297367"
-              className="px-6 py-3 bg-primary text-dark-bg font-bold rounded-lg hover:bg-primary/90 transition"
+              className="px-6 py-3 bg-primary text-light-text font-bold rounded-lg hover:bg-primary/90 transition"
             >
               Call Us
             </a>
