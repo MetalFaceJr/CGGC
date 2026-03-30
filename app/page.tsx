@@ -19,8 +19,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Fundamentals Card */}
-            <div className="bg-dark-surface border border-primary/20 rounded-lg p-8 hover:border-primary/50 transition">
-              <div className="text-4xl mb-4">🥋</div>
+               <div className="text-4xl mb-4" aria-label="Fundamentals program icon">🥋</div>
               <h3 className="text-2xl font-bold text-primary mb-3">
                 Fundamentals (Gi)
               </h3>
@@ -32,8 +31,7 @@ export default function Home() {
             </div>
 
             {/* No-Gi Card */}
-            <div className="bg-dark-surface border border-primary/20 rounded-lg p-8 hover:border-primary/50 transition">
-              <div className="text-4xl mb-4">💪</div>
+               <div className="text-4xl mb-4" aria-label="No-Gi program icon">💪</div>
               <h3 className="text-2xl font-bold text-primary mb-3">
                 Submission Grappling (No-Gi)
               </h3>
@@ -45,8 +43,7 @@ export default function Home() {
             </div>
 
             {/* Youth Card */}
-            <div className="bg-dark-surface border border-primary/20 rounded-lg p-8 hover:border-primary/50 transition">
-              <div className="text-4xl mb-4">👦</div>
+               <div className="text-4xl mb-4" aria-label="Youth program icon">👦</div>
               <h3 className="text-2xl font-bold text-primary mb-3">
                 Youth Grappling
               </h3>
@@ -66,8 +63,7 @@ export default function Home() {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="text-5xl mb-4">🏆</div>
+               <div className="text-5xl mb-4" aria-label="Passionate instruction icon">🏆</div>
               <h3 className="text-xl font-bold text-primary mb-2">
                 Passionate Instruction
               </h3>
@@ -76,8 +72,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="text-center">
-              <div className="text-5xl mb-4">🤝</div>
+               <div className="text-5xl mb-4" aria-label="Strong community icon">🤝</div>
               <h3 className="text-xl font-bold text-primary mb-2">
                 Strong Community
               </h3>
@@ -86,8 +81,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="text-center">
-              <div className="text-5xl mb-4">📍</div>
+               <div className="text-5xl mb-4" aria-label="Convenient location icon">📍</div>
               <h3 className="text-xl font-bold text-primary mb-2">
                 Convenient Location
               </h3>

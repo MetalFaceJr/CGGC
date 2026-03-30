@@ -61,8 +61,11 @@ export default function Navbar() {
         </ul>
 
         {/* Mobile Menu Button */}
+        {/* Mobile Menu Button */}
         <button
           onClick={toggleMobileMenu}
+          aria-label="Open mobile menu"
+          aria-expanded={isMobileMenuOpen}
           className="md:hidden w-10 h-10 flex flex-col justify-center items-center gap-1.5"
         >
           <span
