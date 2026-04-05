@@ -16,22 +16,22 @@ export const scheduleData: ScheduleDay[] = [
     date: "5:00pm - 9:00pm",
     classes: [
       {
-        ageGroup: "Little Kids (5yo-8yo)",
+        ageGroup: "Kids I (5-8 Years-Old)",
         time: "5:00pm",
         duration: "5:45pm",
       },
       {
-        ageGroup: "Big Kids",
+        ageGroup: "Kids II (8 Years-Old & Up)",
         time: "6:30pm",
         duration: "7:15pm",
       },
       {
-        ageGroup: "Adults",
+        ageGroup: "Adults (Instruction)",
         time: "7:15pm",
         duration: "8:00pm",
       },
       {
-        ageGroup: "Optional Live Training",
+        ageGroup: "Open Training",
         time: "8:00pm",
         duration: "9:00pm",
       },
@@ -42,22 +42,22 @@ export const scheduleData: ScheduleDay[] = [
     date: "5:00pm - 9:00pm",
     classes: [
       {
-        ageGroup: "Little Kids (5yo-8yo)",
+        ageGroup: "Kids I (5-8 Years-Old)",
         time: "5:00pm",
         duration: "5:45pm",
       },
       {
-        ageGroup: "Big Kids",
+        ageGroup: "Kids II (8 Years-Old & Up)",
         time: "6:30pm",
         duration: "7:15pm",
       },
       {
-        ageGroup: "Adults",
+        ageGroup: "Adults (Instruction)",
         time: "7:15pm",
         duration: "8:00pm",
       },
       {
-        ageGroup: "Optional Live Training",
+        ageGroup: "Open Training",
         time: "8:00pm",
         duration: "9:00pm",
       },
@@ -73,12 +73,12 @@ export const scheduleData: ScheduleDay[] = [
         duration: "9:45am",
       },
       {
-        ageGroup: "Adults",
+        ageGroup: "Adults (Instruction)",
         time: "9:45am",
         duration: "10:30am",
       },
       {
-        ageGroup: "Optional Live Training",
+        ageGroup: "Open Training",
         time: "10:30am",
         duration: "11:30am",
       },

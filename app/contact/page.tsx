@@ -64,10 +64,10 @@ export default function ContactPage() {
                     📧 Email Us
                   </h3>
                   <a
-                    href="mailto:Randy.Roden@CalhounGaGrapplingClub.com"
+                    href="mailto:info@CalhounGaGrapplingClub.com"
                     className="text-light-text hover:text-primary break-all"
                   >
-                    Randy.Roden@CalhounGaGrapplingClub.com
+                    info@CalhounGaGrapplingClub.com
                   </a>
                   <p className="text-light-text/70 text-sm mt-2">
                     We'll respond within 24 hours

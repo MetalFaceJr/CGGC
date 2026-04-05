@@ -17,14 +17,6 @@ export const instructorsData: Instructor[] = [
     initials: "RR",
   },
   {
-    id: "brayan-reyes",
-    name: "Brayan Reyes",
-    title: "Instructor",
-    bio: "Experienced martial artist with expertise in both striking & grappling. Passionate about developing grappling with striking in mind.",
-    specialty: "Practical Self-Defense, Combat Jiu JItsu",
-    initials: "BR",
-  },
-  {
     id: "matt-hugh-boiles",
     name: "Matt Hugh Boiles",
     title: "Instructor",

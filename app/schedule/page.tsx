@@ -73,7 +73,7 @@ export default function SchedulePage() {
 
             <div className="bg-dark-bg border border-primary/20 rounded-lg p-6">
               <h3 className="text-xl font-bold text-primary mb-4">
-                Optional Live Training
+                Open Training
               </h3>
               <p className="text-light-text/80 mb-4">
                 Extended sessions available after regular classes for those

@@ -102,12 +102,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  return (
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-dark-bg">
-        <Script id="localbusiness-schema" type="application/ld+json" dangerousInnerHTML={JSON.stringify(schema)} />
+        <Script id="localbusiness-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

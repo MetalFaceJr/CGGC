@@ -17,38 +17,68 @@ export default function Home() {
             Our <span className="text-primary">Programs</span>
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Fundamentals Card */}
-               <div className="text-4xl mb-4" aria-label="Fundamentals program icon">🥋</div>
-              <h3 className="text-2xl font-bold text-primary mb-3">
-                Fundamentals (Gi)
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Youth I Card */}
+            <div className="bg-dark-surface border border-primary/20 rounded-lg p-8 hover:border-primary/50 transition">
+              <div className="text-4xl mb-4" aria-label="Youth I program icon">🧒</div>
+              <h3 className="text-2xl font-bold text-primary mb-1">
+                Youth I
               </h3>
+              <p className="text-light-text/60 text-sm mb-3">Ages 5 – 8</p>
               <p className="text-light-text/80">
-                Traditional training in the kimono.
-                Learn to slow down and control bigger, stronger opponents using their clothes as a handle
-                (because not everyone takes their clothes off to fight).
+                Trying to make Junior Champions is the leading cause of youth burnout.
+                We play the long game. Teach them to love it first. After that, skill is inevitable.
               </p>
             </div>
 
-            {/* No-Gi Card */}
-               <div className="text-4xl mb-4" aria-label="No-Gi program icon">💪</div>
-              <h3 className="text-2xl font-bold text-primary mb-3">
-                Submission Grappling (No-Gi)
+            {/* Youth II Card */}
+            <div className="bg-dark-surface border border-primary/20 rounded-lg p-8 hover:border-primary/50 transition">
+              <div className="text-4xl mb-4" aria-label="Youth II program icon">👦</div>
+              <h3 className="text-2xl font-bold text-primary mb-1">
+                Youth II
               </h3>
+              <p className="text-light-text/60 text-sm mb-3">Ages 8 and up</p>
               <p className="text-light-text/80">
-                Fast-paced wrestling and submission hunting without the
-                traditional uniform. Perfect for MMA enthusiasts and athletes
-                seeking a dynamic workout.
+                Despite what your kid&apos;s school says, they&apos;re not protecting your child.
+                If your kid walks through our doors, we&apos;re committed to do what the schools won&apos;t:
+                protect and give them the tools to defend themselves.
               </p>
             </div>
 
-            {/* Youth Card */}
-               <div className="text-4xl mb-4" aria-label="Youth program icon">👦</div>
+            {/* Youth Competitive Card */}
+            <div className="bg-dark-surface border border-primary/20 rounded-lg p-8 hover:border-primary/50 transition">
+              <div className="text-4xl mb-4" aria-label="Youth Competitive program icon">🏆</div>
               <h3 className="text-2xl font-bold text-primary mb-3">
-                Youth Grappling
+                Youth Competitive
               </h3>
               <p className="text-light-text/80">
-                Conflict is inevitable and your kid needs "Conflict Resolution" skills.
+                We know competition isn&apos;t for everyone, but it&apos;s empirically the fastest way to improve.
+                Competitive participation is not mandatory, but the resources to succeed are available.
+              </p>
+            </div>
+
+            {/* Adults Instruction Card */}
+            <div className="bg-dark-surface border border-primary/20 rounded-lg p-8 hover:border-primary/50 transition">
+              <div className="text-4xl mb-4" aria-label="Adults Instruction program icon">🥋</div>
+              <h3 className="text-2xl font-bold text-primary mb-3">
+                Adults (Instruction)
+              </h3>
+              <p className="text-light-text/80">
+                Adults class is a forum for learning. Less hierarchy and more co-operative learning.
+                We look to get to the root of what works and why. Every session ends with Q&amp;A —
+                no training question off limits.
+              </p>
+            </div>
+
+            {/* Adults Open Training Card */}
+            <div className="bg-dark-surface border border-primary/20 rounded-lg p-8 hover:border-primary/50 transition">
+              <div className="text-4xl mb-4" aria-label="Adults Open Training program icon">💪</div>
+              <h3 className="text-2xl font-bold text-primary mb-3">
+                Adults (Open Training)
+              </h3>
+              <p className="text-light-text/80">
+                This is your time. Need drilling, need live rounds, mobility, talking theory with the team?
+                Whatever you need, we&apos;re committed to our teammates&apos; success here.
               </p>
             </div>
           </div>
@@ -63,7 +93,8 @@ export default function Home() {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-               <div className="text-5xl mb-4" aria-label="Passionate instruction icon">🏆</div>
+            <div className="text-center">
+              <div className="text-5xl mb-4" aria-label="Passionate instruction icon">🏆</div>
               <h3 className="text-xl font-bold text-primary mb-2">
                 Passionate Instruction
               </h3>
@@ -72,7 +103,8 @@ export default function Home() {
               </p>
             </div>
 
-               <div className="text-5xl mb-4" aria-label="Strong community icon">🤝</div>
+            <div className="text-center">
+              <div className="text-5xl mb-4" aria-label="Strong community icon">🤝</div>
               <h3 className="text-xl font-bold text-primary mb-2">
                 Strong Community
               </h3>
@@ -81,12 +113,13 @@ export default function Home() {
               </p>
             </div>
 
-               <div className="text-5xl mb-4" aria-label="Convenient location icon">📍</div>
+            <div className="text-center">
+              <div className="text-5xl mb-4" aria-label="Convenient location icon">📍</div>
               <h3 className="text-xl font-bold text-primary mb-2">
                 Convenient Location
               </h3>
               <p className="text-light-text/80">
-                Located inside Seo's Martial Arts & SMA Athletics in Calhoun,
+                Located inside Seo{"'"}s Martial Arts & SMA Athletics in Calhoun,
                 GA.
               </p>
             </div>
@@ -119,7 +152,7 @@ export default function Home() {
           <h3 className="text-2xl font-bold text-light-text mb-4">
             Located Inside{" "}
             <span className="text-primary">
-              Seo's Martial Arts & SMA Athletics
+              Seo{"'"}s Martial Arts & SMA Athletics
             </span>
           </h3>
           <p className="text-light-text/80 mb-2">
@@ -137,7 +170,7 @@ export default function Home() {
               Call Us
             </a>
             <a
-              href="mailto:Randy.Roden@CalhounGaGrapplingClub.com"
+              href="mailto:info@CalhounGaGrapplingClub.com"
               className="px-6 py-3 border border-primary text-primary font-bold rounded-lg hover:bg-primary/10 transition"
             >
               Email Us

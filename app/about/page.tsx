@@ -5,7 +5,7 @@ import InstructorCard from "@/ui/InstructorCard";
 export const metadata: Metadata = {
   title: "About Us | Calhoun GA Grappling Club",
   description:
-    "Meet our experienced instructors: Randy Roden, Brayan Reyes, Matt Hugh Boiles, and Will Jordan. Passionate about teaching Brazilian Jiu-Jitsu and grappling.",
+    "Meet our experienced instructors: Randy Roden, Matt Hugh Boiles, and Will Jordan. Passionate about teaching Brazilian Jiu-Jitsu and grappling.",
 };
 
 export default function AboutPage() {
@@ -32,22 +32,11 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold text-light-text mb-6">
                 Our <span className="text-primary">Mission</span>
               </h2>
-              <p className="text-light-text/80 mb-4">
-                Calhoun GA Grappling Club is dedicated to building a strong
-                community of grapplers, from absolute beginners to advanced
-                competitors. We believe that Brazilian Jiu-Jitsu and submission
-                wrestling offer transformative benefits: physical fitness,
-                mental resilience, and life-changing friendships.
-              </p>
-              <p className="text-light-text/80 mb-4">
-                Our goal is to make world-class instruction accessible to
-                everyone in Calhoun and surrounding areas, regardless of age,
-                fitness level, or prior experience.
-              </p>
-              <p className="text-light-text/80">
-                We foster a supportive, judgment-free environment where every
-                student can grow at their own pace.
-              </p>
+              <ul className="text-light-text/80 space-y-3 list-disc list-inside">
+                <li>Giving individuals the capacity to defend their own agency</li>
+                <li>Build a dependable community</li>
+                <li>Increase the fight IQ of the average resident in Calhoun and surrounding areas</li>
+              </ul>
             </div>
 
             <div className="bg-gradient-to-br from-primary to-primary/50 rounded-lg p-12 text-center">
@@ -136,7 +125,7 @@ export default function AboutPage() {
             📱 (706) 629-7367
           </p>
           <p className="text-light-text/80 mb-8">
-            📧 Randy.Roden@CalhounGaGrapplingClub.com
+            📧 info@CalhounGaGrapplingClub.com
           </p>
 
           <a
